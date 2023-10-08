@@ -8,6 +8,28 @@ import Card from "../components/Card.astro";
     <h1 class="text-3xl font-bold">
       Welcome to <span class="text-gradient">Astro</span>
     </h1>
+    <table class="table-auto border-collapse border border-slate-400">
+      <thead>
+        <tr>
+          <th class="border border-slate-300 p-4">Count Page</th>
+          <th class="border border-slate-300 p-4">action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-slate-300">Navighate to row 1</td>
+          <td class="border border-slate-300 p-4"><a href="count/1">1</a></td>
+        </tr>
+        <tr>
+          <td class="border border-slate-300 p-4">Navighate to row 2</td>
+          <td class="border border-slate-300 p-4"><a href="count/2">2</a></td>
+        </tr>
+        <tr>
+          <td class="border border-slate-300 p-4">Navighate to row 3</td>
+          <td class="border border-slate-300 p-4"><a href="count/3">3</a></td>
+        </tr>
+      </tbody>
+    </table>
   </main>
 </Layout>
 
